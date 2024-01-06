@@ -17,5 +17,5 @@
 Anaconda3-2021.11-Windows-x86_64.exe   
 Windows 10 Home 22H2  
 tensorflow 2.8.0 (shown how to do in "Steps to Run")  
-cudnn 8.1    
+cudnn 8.1.1    
 cuda 11.2   
