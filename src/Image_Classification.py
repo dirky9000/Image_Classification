@@ -7,6 +7,7 @@ from matplotlib import pyplot as plt
 from IPython.display import display
 
 print('\nTensorFlow version is:', tf.__version__)
+print('\n0 is a cultivated plant\n1 is a weed\n')
 
 #############################################################
 
@@ -142,8 +143,8 @@ np.expand_dims(resize, 0).shape
 yhat = model.predict(np.expand_dims(resize/255, 0))
 print('\n', yhat)
 if yhat > 0.5: 
-    print('Predicted class is a weed')
+    print('Predicted class is a weed\n')
 else:
-    print('Predicted class is a cultivated plant')
+    print('Predicted class is a cultivated plant\n')
 
 #############################################################
