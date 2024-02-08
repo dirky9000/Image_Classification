@@ -123,7 +123,7 @@ print(pre.result(), re.result(), acc.result())
 #############################################################
 
 # Read the image using OpenCV
-image_path = r'c:\Users\dirky\Desktop\Coding\Projects\Image_Classification\test_data\cul_plants.jpg'
+image_path = r'c:\Users\dirky\Desktop\Coding\Projects\Image_Classification\test_data\cultivated_test2.jpg'
 img = cv2.imread(image_path)
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
 plt.show()
