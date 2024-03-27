@@ -14,7 +14,7 @@
 2. There might be an issue saying to downgrade protobuf package to 3.20.x or later when trying to run "Image_Classification.py" and all that needs to be done is run ```pip install protobuf==3.20.*``` and it should work
 
 ## Necessary Downloads and Tested Versions 
-Python 3.9.7
+Python 3.9.7           
 tensorflow 2.8.0 (shown how to do in "Steps to Run")  
 cudnn 8.1.1    
 cuda 11.2.0   
