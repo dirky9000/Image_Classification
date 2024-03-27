@@ -2,7 +2,7 @@
 ### This deep CNN image classifier can distinguish between weeds and cultivated plants (not weeds). This project also allows the input of new images to be tested and can be changed to distinguish between different types of classes and not just the use case of agriculture. This all works on VS Code.
 
 ## Steps to Run
-1. Download necessary downloads in "Necessary Downloads and Tested Versions" down below  
+1. Download necessary downloads in "Tested Versions" down below  
 2. Git clone the repository  
 3. Make a virtual environment (optional but recommended) and activate it (```py -3.9 -m venv venv_name```) 
 4. On venv install TensorFlow (```pip install tensorflow==2.8.0 tensorflow-gpu==2.8.0 opencv-python matplotlib```) and ipython (```pip install ipython```)  
